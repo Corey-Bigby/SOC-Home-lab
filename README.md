@@ -34,7 +34,7 @@ A home SOC lab that builds a small Active Directory domain, forwards Windows Sec
 | Target | Windows 11 client | 192.168.10.100 | Domain-joined, Splunk UF + Sysmon + Atomic Red Team |
 | Kali | Attacker | 192.168.10.250 | hydra, xfreerdp, rockyou wordlist |
 
-> The lab follows the MyDFIR "Active Directory" project; the diagram still shows the template domain name **MyDFIR**, but the domain was actually built as **Superbee.local**.
+> The lab follows the MyDFIR "Active Directory" project.
 
 ---
 
