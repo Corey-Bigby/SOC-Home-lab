@@ -78,7 +78,7 @@ See [`incident-report.md`](incident-report.md) for the full investigation.
 - **4,820** events ingested into the `endpoint` index over a 24-hour window
 - **87** authentication-related events tied to `tsmith` during the attack window
 - Event ID mix on the DC during the attack: 4624 (34), 4634 (34), 4769 (9), 4768 (6), 4776 (4)
-- Brute force recovered the password in **24** attempts (hydra, rockyou-derived list)
+- Brute force recovered the password on attempt **21 of 24** (hydra, rockyou-derived list)
 - Atomic test **T1136.001** (create local admin) generated events; **T1059.001 / SOAPHound build-cache** test was **not detected** — a logging gap identified for follow-up
 
 ---
@@ -89,9 +89,7 @@ See [`incident-report.md`](incident-report.md) for the full investigation.
 soc-home-lab/
 ├── README.md              ← this file
 ├── incident-report.md     ← 1-page brute-force incident write-up
-├── splunk/                ← SPL queries + screenshots
-├── sentinel/              ← (optional future work)
-└── screenshots/           ← lab build + attack + detection images
+└── Screenshots/           ← lab build, attack, and detection images
 ```
 
 ---
